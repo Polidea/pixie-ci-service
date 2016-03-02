@@ -1,0 +1,36 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.1.5",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony_destructuring --harmony index.js",
+    "test": "mocha --harmony_destructuring --harmony",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "watch": "onchange '**/*.js' -- npm test"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "express": "4.13.3",
+    "travis-ci": "^2.1.0"
+  },
+  "engines": {
+    "node": "5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.2.0",
+    "mocha": "^2.4.5"
+  }
+}

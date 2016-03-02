@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "quotes": [2, "single"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "never"],
+    "no-unexpected-multiline": 2,
+    "constructor-super": 2,
+    "no-confusing-arrow": 2,
+    "no-class-assign": 2,
+    "no-const-assign": 2,
+    "no-dupe-class-members": 2,
+    "no-this-before-super": 2,
+    "no-unused-vars": [2, {"args": "after-used", "varsIgnorePattern": "^_$"}],
+    "object-shorthand": [2, "always"],
+    "prefer-spread": 1,
+    "prefer-template": 1,
+    "require-yield": 2
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "experimentalObjectRestSpread": true
+  },
+  "plugins": [
+  ]
+}
