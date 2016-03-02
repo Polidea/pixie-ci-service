@@ -1,8 +1,6 @@
 {
   "name": "PIXIE CI service",
-  "description": "",
-  "website": "",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "website": "https://github.com/Polidea/pixie-ci-service",
+  "repository": "https://github.com/Polidea/pixie-ci-service",
   "image": "heroku/nodejs"
 }
